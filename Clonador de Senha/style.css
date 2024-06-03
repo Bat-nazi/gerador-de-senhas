@@ -1,14 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-da-letra:rgba(0, 0, 0, 0.918);
+    --cor-da-letra:rgba(244, 248, 9, 0.918);
     --cor-de-fundo:#f00a0ad0;
     --fundo-senha:#f57d2dde;
-    --fundo-texto:#001e40;
-    --borda:#e9f811;
+    --fundo-texto:#ffef0a;
+    --borda:#000000;
+    --font:"honk","sans-serif";
+    --font2:"raleway","sans-serif";
+
 }
 
 body{
     color:var(--cor-da-letra);
     background-color:var(--cor-de-fundo);
+    font-family:var(--font2)
+}
+
+.titulo-principal{
+    font-size: 50px;
+    font-family:var(--font) ;
+}
+
+.titulo-secundario{
+    font-size: 30px;
 }
