@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --cor-da-letra:rgba(0, 0, 0, 0.918);
+    --cor-de-fundo:#f00a0ad0;
+    --fundo-senha:#f57d2dde;
+    --fundo-texto:#001e40;
+    --borda:#e9f811;
+}
+
+body{
+    color:var(--cor-da-letra);
+    background-color:var(--cor-de-fundo);
+}
