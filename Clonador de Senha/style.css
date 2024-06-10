@@ -3,12 +3,13 @@
 
 :root{
     --cor-da-letra:rgba(244, 248, 9, 0.918);
-    --cor-de-fundo:#f00a0ad0;
-    --fundo-senha:#f57d2dde;
+    --cor-de-fundo:#ff6600;
+    --fundo-senha:#ff4400;
     --fundo-texto:#ffef0a;
-    --borda:#000000;
+    --borda:#f80000de;
     --font:"honk","sans-serif";
     --font2:"raleway","sans-serif";
+    --letra:black
 
 }
 
@@ -18,11 +19,45 @@ body{
     font-family:var(--font2)
 }
 
+.conteudo{
+    text-align: center;
+    font-size: 30px;
+}
+
+.img{
+    width:100px;
+}
+
 .titulo-principal{
     font-size: 50px;
-    font-family:var(--font) ;
+    font-family:var(--font);
+    color: black;
 }
 
 .titulo-secundario{
     font-size: 30px;
 }
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.conteudo-senha{
+    margin-top: 100px;
+    background: var(--fundo-senha);
+    padding: 65px;
+    border-bottom: 7px solid var(--borda);
+    border-top: 7px solid var(--borda);
+    border-radius: 25px
+}
+
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border: nome;
+    color: var(--letra);
+    width: 50%;
+    border-radius: 20px;
+}
+
