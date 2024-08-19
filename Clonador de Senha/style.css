@@ -83,7 +83,42 @@ img{
     font-size: 60px;
 }
 
-
 #class img{
     width: 15%;
 }
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+    } 
+
+    .checkbox{
+        width: 25px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .label{
+        font-size:20px;
+    }
+    
+ .parametro-coluna-senha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .barra{ 
+        height: 60px;
+        width: 100%; 
+        background-color:gray;
+    }
+
+    .fraco{
+        height: 60px;
+        width: 33%;
+        background-color: yellow;
+        position: relative;
+        bottom: 60px;
+    }
+
