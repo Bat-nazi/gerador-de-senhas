@@ -79,8 +79,8 @@ img{
     border-radius: 25px;
 }
 
-.paramentro-titulo{
-    font-size: 60px;
+.parametro-titulo{
+    font-size:40px;
 }
 
 #class img{
@@ -90,6 +90,8 @@ img{
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
+    border-left: 7px solid black;
+    font-size: 35px;
     } 
 
     .checkbox{
@@ -116,9 +118,30 @@ img{
 
     .fraco{
         height: 60px;
-        width: 33%;
+        width: 30%;
+        background-color: rgb(255, 0, 0);
+        position: relative;
+        bottom: 60px;
+    } 
+
+    .media{
+        height: 60px;
+        width: 65%;
         background-color: yellow;
         position: relative;
         bottom: 60px;
+    }
+
+    .forte{
+        height: 60px;
+        width: 100%;
+        background-color: green;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .parametro-senha-textos{
+        display: flex;
+        justify-content: space-between;
     }
 
