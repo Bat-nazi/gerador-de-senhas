@@ -14,6 +14,7 @@ function diminuirTamanho(){
     if(tamanhoSenha>10){
     tamanhoSenha = tamanhoSenha-1;
     numeroSenha.textContent = tamanhoSenha;
+    geraSenha();
     }
 }
 
@@ -21,9 +22,9 @@ function aumentarTamanho(){
      if(tamanhoSenha<30){
      tamanhoSenha = tamanhoSenha+1;
      numeroSenha.textContent = tamanhoSenha
+     geraSenha();
     }
 }
-
 
 function geraSenha(){
     let senha=" ";
@@ -34,3 +35,4 @@ function geraSenha(){
     }
     campoSenha.value=senha;
 }
+
